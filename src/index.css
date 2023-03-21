@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+ .nav-item{
+  @apply cursor-pointer hover:bg-gray-300 px-[2px] rounded-[2px];
+ }
+
+}
+.carousel-1{
+    background: url(../public/images/photo-1477959858617-67f85cf4f1df.jpeg);
+}
+.carousel-2{
+    background: url(../public/images/Halleyparknovember.jpg);
+}
+.carousel-3{
+    background: url(../public/images/photo-1544427920-c49ccfb85579.avif);
+}
+.carousel-4{
+    background: url(../public/images/photo-1544144433-d50aff500b91.avif);
+}
+.carousel-5{
+    background: url(../public/images/yer.jpg);
+}
+.text-white{
+    color: #fff;
+}
